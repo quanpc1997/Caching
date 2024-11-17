@@ -69,7 +69,3 @@ Còn rất nhiều tool khác nhưng tạm thế đã.
 
 ### III. Tìm hiểu thêm
 [1. Redis trong python](/Redis/README.md)
-[2. Demo](#)
-[2.1. Read Through](/Demo/1-read-through.md)
-[2.2. Write Through](/Demo/2-write-through.md)
-[2.3. Write Behind Caching](/Demo/3-write-data-behind-caching.md)
