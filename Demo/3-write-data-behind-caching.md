@@ -1,1 +1,0 @@
-# Write data behind caching trong Python.
