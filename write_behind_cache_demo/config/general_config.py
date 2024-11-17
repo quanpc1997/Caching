@@ -4,6 +4,9 @@ class ConfigurationManager(BaseSettings):
     fastapi_application_name: str = "QuanPC"
     fastapi_application_title: str = "1.0"
     fastapi_application_description: str = "Write Behind Caching Demo"
+
+    event_id: str = "EV123"
+
     debug_mode: bool = True
 
     redis_host: str = "localhost"
@@ -16,6 +19,10 @@ class ConfigurationManager(BaseSettings):
     max_overflow: int = 20
     pool_timeout: int = 1800
     pool_recycle: int = 1800
+
+    kafka_bootstrap_server: str = '127.0.0.1:9095'
+    reserve_redis_pg_topic: str = "RESERVE_REDIS_PG"
+    reserve_result_topic: str = "RESERVE_RESULT"
 
     class Config:
         env_file = "../config.env"
